@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#check for proper number of args
+if [ $# -eq 1 ]; then
+    rvm install 1.9.2 -C --with-zlib-dir=/usr/local/rvm/src/
+	rvm --default use 1.9.2
+else
+    echo "Usage: ruby_slipper ruby-<VERSION>"
+fi
+

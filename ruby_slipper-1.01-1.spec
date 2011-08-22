@@ -1,6 +1,6 @@
 %define slipperver         1.0
 %define slipperminorver    1
-%define _prefix            /usr/local/bin 
+%define _prefix            /usr/bin 
 
 Name:           ruby_slipper
 Version:        %{slipperver}%{slipperminorver}
